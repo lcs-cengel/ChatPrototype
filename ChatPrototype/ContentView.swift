@@ -15,8 +15,12 @@ struct ContentView: View {
                 Text("Knock, Knock")
                 .padding()
                 .background(Color.mint, in: RoundedRectangle(cornerRadius: 88))
+                .shadow(color: Color.red,  radius: 20)
                 
             Text("Who's there?")
+                .padding()
+                .background(Color.gray, in: RoundedRectangle(cornerRadius: 88))
+                .shadow(color: Color.yellow, radius: 30)
                 
         }
         .padding()
