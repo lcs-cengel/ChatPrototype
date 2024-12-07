@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 50) {
     
             
                 Text("Knock, Knock")
@@ -21,7 +21,7 @@ struct ContentView: View {
                 .padding()
                 .background(Color.gray, in: RoundedRectangle(cornerRadius: 88))
                 .shadow(color: Color.yellow, radius: 30)
-                
+              
         }
         .padding()
     }
